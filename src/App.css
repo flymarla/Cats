@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +13,37 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  margin-right: 15px;
+  margin-left: 5px;
+  line-height: 32px;
 }
+
+footer {
+  position:fixed;
+  bottom:0px;
+  width:100%;
+  height:20px;  
+  background: burlywood;
+}
+
+#options {
+  margin-bottom: 20px;
+}
+
+.borderedpicture3 {
+  background-color: #7d7d7d;
+  background-image: url("/src/images/eoscat2a.png");
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+      rgba(0, 0, 0, 0.19);
+  }
