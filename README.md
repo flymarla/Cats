@@ -7,7 +7,7 @@ This App allows the user to choose a cat picture from a ramdom selection of choi
 * Cat pictures tags are pulled from an API and the user is given 5 random choices.
 * When a choice is made, a cat picture appears that matches that choice and 5 new choices are given.
 
-><img src="./src/images/CatAppScreeshot.PNG" alt="Random Cat Picture" width="300" height="500"/>
+><img src="/src/images/CatAppScreenshot.PNG" alt="Random Cat Picture" width="300" height="500"/>
 
 ## How to Run
 
